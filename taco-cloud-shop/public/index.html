@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Taco Cloud Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <h1>🌮 Taco Cloud Shop</h1>
+  <p>Fresh tacos powered by the cloud.</p>
+
+  <div class="cart">
+    Cart: <span id="cart-count">0</span>
+  </div>
+</header>
+
+<section class="products">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600" />
+    <h2>Cloud Carnitas</h2>
+    <p>Slow-cooked pork taco with salsa verde.</p>
+    <p class="price">$4.99</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1613514785940-daed07799d9b?w=600" />
+    <h2>Serverless Shrimp</h2>
+    <p>Spicy shrimp taco with lime crema.</p>
+    <p class="price">$5.99</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <div class="card">
+   <img src="https://images.unsplash.com/photo-1511690078903-71dc5a49f5e3?w=600" alt="Veggie taco" />
+    <h2>VM Veggie Taco</h2>
+    <p>Roasted veggie taco with avocado crema.</p>
+    <p class="price">$4.49</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+</section>
+
+<footer>
+  <p>Built for VM, container, and serverless deployments.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
